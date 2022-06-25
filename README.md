@@ -6,10 +6,7 @@
 
 
 ## Demo
-<video height="540" width="960" controls>
- <source src=".readme/preview.mp4" type="video/mp4">
- </video>
-
+<video height="540" width="960" src="https://user-images.githubusercontent.com/54210595/175767489-f7450fb2-ff66-465a-952e-1a34d5db6384.mp4" controls></video>
 ## Installation
 ```
 git clone https://github.com/free-bots/the-manbutton-project-bot.git
