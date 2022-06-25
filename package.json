@@ -1,0 +1,28 @@
+{
+  "name": "the-manbutton-project-bot",
+  "version": "1.0.0",
+  "description": "This bot plays the game The Manbutton Project from @AndideBob",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build-bindings": "build-opencv --incDir /usr/include/opencv4/ --libDir /usr/lib/ --binDir=/usr/bin/ --nobuild rebuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "free-bots",
+  "license": "ISC",
+  "dependencies": {
+    "@u4/opencv4nodejs": "^6.2.0",
+    "lodash": "^4.17.21",
+    "puppeteer": "^15.1.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.6"
+  },
+  "opencv4nodejs": {
+    "disableAutoBuild": "1",
+    "OPENCV_INCLUDE_DIR": "/usr/include/opencv4/",
+    "OPENCV_LIB_DIR": "/usr/lib/",
+    "OPENCV_BIN_DIR": "/usr/bin/"
+  }
+}
